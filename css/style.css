@@ -1,8 +1,24 @@
 #search-bar-input {
-  width: 45%;
-  height: 20px;
-}
-.upper-menu {
-  padding-bottom: 10px;
-  background-color: black;
-}
+    width: 45%;
+    height: 20px;
+  }
+  .upper-menu {
+    padding-bottom: 10px;
+    background-color:white;
+    height: 50px;
+    width: 100%;
+  
+  }
+  #youtube-logo{
+      width: auto;
+      height: 40px
+  }
+  .column{
+      float: left;
+  
+  }
+  .column.first{
+      width: 20%;
+  }
+  .column.second{
+      width: 50%;
