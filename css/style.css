@@ -1,3 +1,7 @@
+iframe {
+    width: 100%;
+    height: 500px;
+}
 .column {
   float: left;
 }
@@ -7,13 +11,15 @@
 .column.second {
   width: 50%;
 }
+.column.third {
+    float: right;
+}
 .icons {
   width: auto;
   height: 20px;
   padding-right: 20px;
   position: relative;
   top: 7px;
-  left: 475%;
 }
 .upper-menu {
   padding-top: 5px;
@@ -23,23 +29,35 @@
   height: 35px;
   width: 100%;
   border-bottom: 3px solid #F0F0F0;
+  margin-bottom: 30px;
 }
 .main-column {
     float: left;
+    padding-left: 5%;
 }
 .main-column.one {
-    width: 65%;
+    width: 55%;
 }
 .main-column.two {
-
+    overflow: scroll;
 }
 .sub-column{
     float: left;
+    padding-bottom: 15px;
 }
 .sub-column.video {
-    width: 30%;
+    width: 40%;
+    padding-right: 20px;
 }
-
+.vid-title {
+    font-weight: 550;
+}
+.vid-owner {
+    color:  #8e8e8e;
+}
+.vid-views {
+    color: #8e8e8e;
+}
 #button-search-img {
   width: auto;
   height: 20px;
