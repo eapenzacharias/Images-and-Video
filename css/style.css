@@ -1,51 +1,37 @@
-#search-bar-input {
-<<<<<<< Updated upstream
-    width: 45%;
-    height: 20px;
-  }
-  .upper-menu {
-    padding-bottom: 10px;
-    background-color:white;
-    height: 50px;
-    width: 100%;
-  
-  }
-  #youtube-logo{
-      width: auto;
-      height: 40px
-  }
-  .column{
-      float: left;
-  
-  }
-  .column.first{
-      width: 20%;
-  }
-  .column.second{
-      width: 50%;
-=======
-  width: 45%;
-  height: 20px;
+.column {
+  float: left;
+}
+.column.first {
+  width: 20%;
+}
+.column.second {
+  width: 50%;
+}
+.icons {
+  width: 25px;
+  height: 25px;
+  padding-right: 20px;
 }
 .upper-menu {
-  padding-bottom: 10px;
-  background-color: black;
-  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  height: 35px;
   width: 100%;
-  
+  border-bottom: 3px solid #F0F0F0;
+}
+
+#search-bar-input {
+  width: 45%;
+  height: 25px;
+}
+#search-bar-logo {
+  background-color: #FAFAFA;
+}
+#search-bar-logo:hover {
+  background-color: #E6E6E6;
 }
 #youtube-logo{
-    width: auto;
-    height: 40px
+  width: auto;
+  height: 40px
 }
-.column{
-    float: left;
-
-}
-.column.first{
-    width: 20%;
-}
-.column.second{
-    width: 50%;
-}
->>>>>>> Stashed changes
