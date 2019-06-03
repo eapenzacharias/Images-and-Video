@@ -20,6 +20,21 @@
   width: 100%;
   border-bottom: 3px solid #F0F0F0;
 }
+.main-column {
+    float: left;
+}
+.main-column.one {
+    width: 65%;
+}
+.main-column.two {
+
+}
+.sub-column{
+    float: left;
+}
+.sub-column.video {
+    width: 30%;
+}
 
 #search-bar-input {
   width: 45%;
