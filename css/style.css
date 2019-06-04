@@ -47,7 +47,7 @@ iframe {
 }
 .sub-column.video {
     width: 40%;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 .sub-column.video img {
   width: 100%;
@@ -59,9 +59,16 @@ iframe {
 }
 .vid-owner {
     color:  #8e8e8e;
+    margin: 0 0px 7px 0px;
 }
 .vid-views {
     color: #8e8e8e;
+}
+.icons-toolbar {
+  padding-right:55px;
+  padding-top: 30px;
+  width: auto;
+  height: 20px;
 }
 #button-search-img {
   width: auto;
