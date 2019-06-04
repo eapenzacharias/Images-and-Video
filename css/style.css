@@ -39,7 +39,7 @@ iframe {
     width: 55%;
 }
 .main-column.two {
-    overflow: scroll;
+    /* overflow: scroll; */
 }
 .sub-column{
     float: left;
@@ -48,6 +48,11 @@ iframe {
 .sub-column.video {
     width: 40%;
     padding-right: 20px;
+}
+.sub-column.video img {
+  width: 100%;
+  height: auto;
+  padding: 15px 10px 5px 0;
 }
 .vid-title {
     font-weight: 550;
