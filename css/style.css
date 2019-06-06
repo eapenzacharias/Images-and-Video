@@ -31,6 +31,10 @@ p {
 .column.third {
   float: right;
 }
+.comment-section {
+  width: 400px;
+  margin-left: 3%;
+}
 .comment-section img {
   height: 35px;
   margin-left: 25px;
